@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="title">Tic Tac Toe</h1>
+        
+        <div class="board" id="board">
+            <!-- Las celdas se llenarán dinámicamente con JavaScript -->
+        </div>
+        <button id="restart">Reiniciar Juego</button>
+        <div id="savedGames"></div> <!-- Contenedor para los juegos guardados -->
+        <h2>Realizado por Maily Yuliana Ortega</h2>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <p id="message" class="message"></p>
+        </div>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>
